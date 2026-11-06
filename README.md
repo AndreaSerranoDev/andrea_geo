@@ -27,3 +27,7 @@ Ground-motion time histories, validated site-response methods, and full engineer
 ## Plate Quest
 
 Open `plates.html` through Live Server or the development server to play a 12-plate name-to-map matching game. Choose a name, then click its map region. Numbered regions are keyboard accessible (Tab, Enter/Space). Hints highlight the selected region; reset reshuffles the names. The local `data` folder contains attributed PB2002 boundaries and Natural Earth land outlines; no API keys or external map service are needed. See `data/README.md` for sources and licensing.
+
+### Easiest way to open Plate Quest
+
+Download `plates.html` and double-click it to open in a browser. Styling, game code, and map data are bundled into this single file; no server is required. To rebuild it after editing `plates.css`, `plates.js`, or map data, run `python3 scripts/build-plates.py`.
