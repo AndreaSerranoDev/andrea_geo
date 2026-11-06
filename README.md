@@ -23,3 +23,7 @@ Open the app on port 3000. Run `npm test` for analytical calculation checks. No 
 Example values are illustrative. Vs30 does not extrapolate beyond the provided profile. The quarter-wave estimate assumes a strong impedance contrast at the base; no half-space is modeled. The pulse does not model reflections, attenuation, or amplification. This is an educational exploration tool, not validated site-response analysis or a design recommendation.
 
 Ground-motion time histories, validated site-response methods, and full engineering report generation are future work. Inputs currently remain in memory until exported; refreshing resets the profile.
+
+## Plate Quest
+
+Open `plates.html` through Live Server or the development server to play a 12-plate name-to-map matching game. Choose a name, then click its map region. Numbered regions are keyboard accessible (Tab, Enter/Space). Hints highlight the selected region; reset reshuffles the names. The local `data` folder contains attributed PB2002 boundaries and Natural Earth land outlines; no API keys or external map service are needed. See `data/README.md` for sources and licensing.
